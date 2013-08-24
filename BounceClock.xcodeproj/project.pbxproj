@@ -25,6 +25,16 @@
 		2A0706C317C69B7D0057E35D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A07069B17C69B7C0057E35D /* UIKit.framework */; };
 		2A0706CB17C69B7D0057E35D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A0706C917C69B7D0057E35D /* InfoPlist.strings */; };
 		2A0706CD17C69B7D0057E35D /* BounceClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0706CC17C69B7D0057E35D /* BounceClockTests.m */; };
+		2A0706D817C69C020057E35D /* BCLNumberBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0706D717C69C020057E35D /* BCLNumberBox.m */; };
+		2A0706DC17C6AEB60057E35D /* BCLFloorSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0706DB17C6AEB60057E35D /* BCLFloorSegment.m */; };
+		2A0706E017C6B5590057E35D /* THTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0706DF17C6B5590057E35D /* THTime.m */; };
+		2A14AE3817C733E30056FDC7 /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A14AE3717C733E30056FDC7 /* UIColor+FlatUI.m */; };
+		2A14AE3B17C7350A0056FDC7 /* UIColor+CrossFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A14AE3A17C7350A0056FDC7 /* UIColor+CrossFade.m */; };
+		2A14AE3E17C7D50D0056FDC7 /* BCLFloater.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A14AE3D17C7D50D0056FDC7 /* BCLFloater.m */; };
+		2A14AE4117C7E0A80056FDC7 /* BCLNodeGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A14AE4017C7E0A80056FDC7 /* BCLNodeGlobals.m */; };
+		2A14AE4417C7E6DB0056FDC7 /* ipad-level6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A14AE4317C7E6DB0056FDC7 /* ipad-level6@2x.png */; };
+		2A14AE4A17C7E6DB0056FDC7 /* BCLbg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A14AE4917C7E6DB0056FDC7 /* BCLbg1@2x.png */; };
+		2A14AE4D17C7E6DB0056FDC7 /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A14AE4C17C7E6DB0056FDC7 /* circle@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +72,23 @@
 		2A0706C817C69B7D0057E35D /* BounceClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BounceClockTests-Info.plist"; sourceTree = "<group>"; };
 		2A0706CA17C69B7D0057E35D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A0706CC17C69B7D0057E35D /* BounceClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BounceClockTests.m; sourceTree = "<group>"; };
+		2A0706D617C69C020057E35D /* BCLNumberBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCLNumberBox.h; path = Nodes/BCLNumberBox.h; sourceTree = "<group>"; };
+		2A0706D717C69C020057E35D /* BCLNumberBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCLNumberBox.m; path = Nodes/BCLNumberBox.m; sourceTree = "<group>"; };
+		2A0706DA17C6AEB60057E35D /* BCLFloorSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCLFloorSegment.h; path = Nodes/BCLFloorSegment.h; sourceTree = "<group>"; };
+		2A0706DB17C6AEB60057E35D /* BCLFloorSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCLFloorSegment.m; path = Nodes/BCLFloorSegment.m; sourceTree = "<group>"; };
+		2A0706DE17C6B5590057E35D /* THTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTime.h; sourceTree = "<group>"; };
+		2A0706DF17C6B5590057E35D /* THTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTime.m; sourceTree = "<group>"; };
+		2A14AE3617C733E30056FDC7 /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		2A14AE3717C733E30056FDC7 /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		2A14AE3917C7350A0056FDC7 /* UIColor+CrossFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CrossFade.h"; sourceTree = "<group>"; };
+		2A14AE3A17C7350A0056FDC7 /* UIColor+CrossFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CrossFade.m"; sourceTree = "<group>"; };
+		2A14AE3C17C7D50D0056FDC7 /* BCLFloater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCLFloater.h; path = Nodes/BCLFloater.h; sourceTree = "<group>"; };
+		2A14AE3D17C7D50D0056FDC7 /* BCLFloater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCLFloater.m; path = Nodes/BCLFloater.m; sourceTree = "<group>"; };
+		2A14AE3F17C7E0A80056FDC7 /* BCLNodeGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCLNodeGlobals.h; sourceTree = "<group>"; };
+		2A14AE4017C7E0A80056FDC7 /* BCLNodeGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCLNodeGlobals.m; sourceTree = "<group>"; };
+		2A14AE4317C7E6DB0056FDC7 /* ipad-level6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-level6@2x.png"; sourceTree = "<group>"; };
+		2A14AE4917C7E6DB0056FDC7 /* BCLbg1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BCLbg1@2x.png"; sourceTree = "<group>"; };
+		2A14AE4C17C7E6DB0056FDC7 /* circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +150,10 @@
 		2A07069F17C69B7C0057E35D /* BounceClock */ = {
 			isa = PBXGroup;
 			children = (
+				2A14AE4B17C7E6DB0056FDC7 /* Textures */,
+				2A14AE4217C7E6B70056FDC7 /* BackgroundImages */,
+				2A14AE3217C733A70056FDC7 /* UtilityClasses */,
+				2A0706DD17C6B5160057E35D /* TimeClasses */,
 				2A0706A817C69B7C0057E35D /* AppDelegate.h */,
 				2A0706A917C69B7C0057E35D /* AppDelegate.m */,
 				2A0706AB17C69B7C0057E35D /* Main_iPhone.storyboard */,
@@ -134,6 +165,7 @@
 				2A0706B717C69B7C0057E35D /* Spaceship.png */,
 				2A0706B917C69B7C0057E35D /* Images.xcassets */,
 				2A0706A017C69B7C0057E35D /* Supporting Files */,
+				2A0706D917C69C070057E35D /* Nodes */,
 			);
 			path = BounceClock;
 			sourceTree = "<group>";
@@ -165,6 +197,58 @@
 				2A0706C917C69B7D0057E35D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A0706D917C69C070057E35D /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				2A0706D617C69C020057E35D /* BCLNumberBox.h */,
+				2A0706D717C69C020057E35D /* BCLNumberBox.m */,
+				2A0706DA17C6AEB60057E35D /* BCLFloorSegment.h */,
+				2A0706DB17C6AEB60057E35D /* BCLFloorSegment.m */,
+				2A14AE3C17C7D50D0056FDC7 /* BCLFloater.h */,
+				2A14AE3D17C7D50D0056FDC7 /* BCLFloater.m */,
+				2A14AE3F17C7E0A80056FDC7 /* BCLNodeGlobals.h */,
+				2A14AE4017C7E0A80056FDC7 /* BCLNodeGlobals.m */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+		2A0706DD17C6B5160057E35D /* TimeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2A0706DE17C6B5590057E35D /* THTime.h */,
+				2A0706DF17C6B5590057E35D /* THTime.m */,
+			);
+			name = TimeClasses;
+			sourceTree = "<group>";
+		};
+		2A14AE3217C733A70056FDC7 /* UtilityClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2A14AE3917C7350A0056FDC7 /* UIColor+CrossFade.h */,
+				2A14AE3A17C7350A0056FDC7 /* UIColor+CrossFade.m */,
+				2A14AE3617C733E30056FDC7 /* UIColor+FlatUI.h */,
+				2A14AE3717C733E30056FDC7 /* UIColor+FlatUI.m */,
+			);
+			name = UtilityClasses;
+			sourceTree = "<group>";
+		};
+		2A14AE4217C7E6B70056FDC7 /* BackgroundImages */ = {
+			isa = PBXGroup;
+			children = (
+				2A14AE4917C7E6DB0056FDC7 /* BCLbg1@2x.png */,
+				2A14AE4317C7E6DB0056FDC7 /* ipad-level6@2x.png */,
+			);
+			name = BackgroundImages;
+			sourceTree = "<group>";
+		};
+		2A14AE4B17C7E6DB0056FDC7 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				2A14AE4C17C7E6DB0056FDC7 /* circle@2x.png */,
+			);
+			name = Textures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +327,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A14AE4417C7E6DB0056FDC7 /* ipad-level6@2x.png in Resources */,
 				2A0706B817C69B7C0057E35D /* Spaceship.png in Resources */,
 				2A0706BA17C69B7C0057E35D /* Images.xcassets in Resources */,
 				2A0706B017C69B7C0057E35D /* Main_iPad.storyboard in Resources */,
+				2A14AE4D17C7E6DB0056FDC7 /* circle@2x.png in Resources */,
+				2A14AE4A17C7E6DB0056FDC7 /* BCLbg1@2x.png in Resources */,
 				2A0706AD17C69B7C0057E35D /* Main_iPhone.storyboard in Resources */,
 				2A0706A417C69B7C0057E35D /* InfoPlist.strings in Resources */,
 			);
@@ -266,9 +353,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0706E017C6B5590057E35D /* THTime.m in Sources */,
+				2A0706DC17C6AEB60057E35D /* BCLFloorSegment.m in Sources */,
 				2A0706B617C69B7C0057E35D /* MyScene.m in Sources */,
+				2A14AE3E17C7D50D0056FDC7 /* BCLFloater.m in Sources */,
+				2A14AE3B17C7350A0056FDC7 /* UIColor+CrossFade.m in Sources */,
 				2A0706B317C69B7C0057E35D /* ViewController.m in Sources */,
+				2A0706D817C69C020057E35D /* BCLNumberBox.m in Sources */,
+				2A14AE3817C733E30056FDC7 /* UIColor+FlatUI.m in Sources */,
 				2A0706AA17C69B7C0057E35D /* AppDelegate.m in Sources */,
+				2A14AE4117C7E0A80056FDC7 /* BCLNodeGlobals.m in Sources */,
 				2A0706A617C69B7C0057E35D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +578,7 @@
 				2A0706D217C69B7D0057E35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A0706D317C69B7D0057E35D /* Build configuration list for PBXNativeTarget "BounceClockTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +587,7 @@
 				2A0706D517C69B7D0057E35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
