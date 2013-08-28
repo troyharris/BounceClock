@@ -68,7 +68,21 @@
     return self;
 }
 
--(void)makeFloor {
+- (void)didMoveToView:(SKView *)view {
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    dateFormat.dateStyle = NSDateFormatterFullStyle;
+    NSDate *now = [NSDate date];
+    NSString *dateText = [dateFormat stringFromDate:now];
+    UILabel *date = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxY(self.frame) - 450, CGRectGetMaxX(self.frame) - 100, 400, 50)];
+    date.font = [UIFont fontWithName:@"AvenirNextCondensed-DemiBold" size:30];
+    date.text = dateText;
+    date.textAlignment = NSTextAlignmentRight;
+    date.textColor = [UIColor whiteColor];
+    //date.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.2];
+    [self.view addSubview:date];
+}
+
+- (void)makeFloor {
     _floorHourTen = [BCLFloorSegment floorSegmentWithWidth:_boxWidth position:CGPointMake(_hourTenColumn, _floorY)];
     _floorHourOne = [BCLFloorSegment floorSegmentWithWidth:_boxWidth position:CGPointMake(_hourOneColumn, _floorY)];
     _floorColon = [BCLFloorSegment floorSegmentWithWidth:_colonWidth position:CGPointMake(_colonColumn, _floorY)];
@@ -81,12 +95,19 @@
     [self addChild:_floorMinuteOne];
 }
 
--(void)makeNumbers {
+- (void)makeNumbers {
     [self makeHourTen];
     [self makeHourOne];
     [self makeColon];
     [self makeMinuteTen];
     [self makeMinuteOne];
+}
+
+- (void)makeAmPm {
+    BCLNumberBox *amPmBox = [BCLNumberBox amPmBoxWithSize:CGSizeMake(self.boxWidth, self.boxHeight / 4)];
+    amPmBox.position = CGPointMake(self.hourTenColumn, CGRectGetMaxY(self.frame) + self.boxHeight);
+    amPmBox.number.text = [THTime currentAmOrPm];
+    [self addChild:amPmBox];
 }
 
 - (void)makeHourTen {
@@ -101,6 +122,7 @@
     }
     _hourTen.position = CGPointMake(_hourTenColumn, CGRectGetMaxY(self.frame));
     [self addChild:_hourTen];
+    [self makeAmPm];
 }
 
 - (void)makeHourOne {

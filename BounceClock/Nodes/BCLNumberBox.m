@@ -52,5 +52,11 @@
     return numberBox;
 }
 
++ (BCLNumberBox *)amPmBoxWithSize:(CGSize)size {
+    BCLNumberBox *amPMBox = [[BCLNumberBox alloc] initWithSize:size];
+    amPMBox.number.text = @"am";
+    amPMBox.name = @"amPm";
+    return amPMBox;
+}
 
 @end

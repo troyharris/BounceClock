@@ -27,5 +27,6 @@ typedef NS_ENUM(NSInteger, BCLNumberBoxElement) {
 
 + (BCLNumberBox *)numberBoxWithNumber:(NSNumber *)number size:(CGSize)size;
 + (BCLNumberBox *)colonBoxWithSize:(CGSize)size;
++ (BCLNumberBox *)amPmBoxWithSize:(CGSize)size;
 
 @end
